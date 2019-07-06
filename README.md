@@ -9,53 +9,36 @@
   <br>
   Data Storing
   <br>
+  Muhammad Hendry Prasetya
   <br>
+  13517105
 </h2>
 
 
-## Specifications
+## DBMS Description
 
-### Data Storing
+Pada tugas kali ini saya menggunakan DBMS MySQL. Mengapa saya memilih MySQL?
+- <b>Mudah Digunakan</b>. MySQL menggunakan query yang umum digunakan dalam bahasa SQL. Query-query tersebut juga telah diajarkan pada mata kuliah Basis Data. 
+- <b>Banyak Digunakan</b>. Komunitas-komunitas MySQL sangat besar sehingga kita mudah untuk mencari tutorial atau solusi dari _bug_.
+- <b>Banyak _Tools_</b>. Karena MySQL _widely used_ dan telah berkembang sejak 1995, tentunya banyak _tools_ yang dapat membantu menyelesaikan masalah. Selain itu, tools-tools untuk analisis dan visualisasi data (untuk tugas ke depannya) juga banyak tersedia.
+- <b>Pemrosesan Query Cepat</b>. MySQL masih populer dengan pemrosesan query yang cepat.
+- <b>Tidak _Overkill_</b>. MySQL cocok untuk _simple database setup_.
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ ke DBMS (Tugas 1).
+## Screenshots
 
-2. DBMS yang digunakan __dibebaskan__
+Tabel 'saham_bei' pada database 'lab_basdat':
+![pic](screenshots/table.jpg)
 
-3. Contoh DBMS yang dapat digunakan (__tidak harus__ salah satu dari contoh di bawah)
-    - [PostgreSQL](https://www.postgresql.org/)
-    - [MySQL](https://www.mysql.com/)
-    - [CouchDB](http://couchdb.apache.org/)
-    - [MongoDB](https://www.mongodb.com/)
+## Reference
 
-4. Penggunaan _tools_ seperti PHPMyAdmin, HeidiSQL, Robo3t diperbolehkan.
+Tools digunakan:<br>
+- [Convertcsv](http://convertcsv.com/json-to-csv.htm) (JSON to CSV)<br>
+- [XAMPP](https://www.apachefriends.org/index.html) (Apache, MySQL)
 
-5. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2019-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
+Referensi Bacaan:<br>
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)<br>
+- [Panoply](https://blog.panoply.io/mongodb-and-mysql)<br>
 
-6. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`. 
-    - _Folder_ `data` berisi data hasil dari _scrapping_, 
-    - _folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS, sedangkan 
-    - _folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS)).
+## Author
 
-7. Deadline pengumpulan tugas ini adalah __7 Juli 2019 Pukul 23.59__
-
-8. Data yang disimpan di DBMS nantinya akan digunakan untuk analisis dan visualisasi data.
-
-9. Berikan README yang __WELL DOCUMENTED__ dengan cara __override__ file README.md ini. README harus memuat minimal konten :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
-
-<h1 align="center">
-  <br>
-  Selamat Ber-Eksplorasi!
-  <br>
-  <br>
-</h1>
-
-<p align="center">
-  <br>
-  Basdat Industries - Lab Basdat 2019
-  <br>
-  <br>
-</p>
+- Muhammad Hendry Prasetya, 13517105
